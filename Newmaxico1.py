@@ -4,6 +4,7 @@ Loop = True
 while Loop == True:
     output = ""
     ways = ""
+    position = 0
     ways = str(input("Which do you want to fuction? \n1:encypt code by Caesar_Cipher 2:decypt by Caesar_Cipher 3:encypt by Rot13 4:decypt by Rot13 : "))
     word = str(input("Please type your code : "))
     list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
