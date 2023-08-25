@@ -6,8 +6,8 @@ class Name:
     def GetFnandLn(self):
         return self.FirstName + " " + self.LastName + " " + self.SID
     def Input():
-        Fname = str(input("โปรดใส่ชื่อของคุณ : "))
-        Lname = str(input("โปรดใส่นามสกุลของคุณ : "))
-        StudentID = str(input("โปรดใส่รหัสประจำตัว : "))
+        Fname = str(input("Please Type your First Name : "))
+        Lname = str(input("Please Type your Last name  : "))
+        StudentID = str(input("Please Type Your Student ID : "))
         P1 = Name(Fname,Lname,StudentID)
         print(P1.GetFnandLn())
