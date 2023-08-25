@@ -13,7 +13,7 @@ while Loop == True:
             for b in list:
                 if a == b:
                     position = list.index(b)
-                    position += 3
+                    position += 5
                     x =list[position]
                     for i in x:
                         output += i
@@ -22,7 +22,7 @@ while Loop == True:
             for b in list:
                 if a == b:
                     position = list.index(b)
-                    position -= 3
+                    position -= 5
                     x =list[position]
                     for i in x:
                         output += i
