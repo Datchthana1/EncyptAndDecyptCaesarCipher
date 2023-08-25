@@ -8,7 +8,6 @@ while Loop == True:
     word = str(input("Please type your code : "))
     list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     if ways == "1":
-        output = ""
         for a in word:
             for b in list:
                 if a == b:
@@ -18,7 +17,6 @@ while Loop == True:
                     for i in x:
                         output += i
     elif ways == "2":
-        output = ""
         for a in word:
             for b in list:
                 if a == b:
@@ -28,7 +26,6 @@ while Loop == True:
                     for i in x:
                         output += i
     elif ways == "3":
-        output = ""
         for a in word:
             for b in list:
                 if a == b:
@@ -38,7 +35,6 @@ while Loop == True:
                     for i in x:
                         output += i
     elif ways == "4":
-        output = ""
         for a in word:
             for b in list:
                 if a == b:
