@@ -67,3 +67,12 @@ while Loop == True:
         print("Cannot define your way")
     print(output)
     Loop = False
+    stop = str(input("Do you want to repeat? \n1:Yes 2:No : "))
+    if stop == "1":
+        print("You repeat the function")
+        Loop = True
+    else:
+        print("You don't repeat the function")
+        Loop = False
+O.Name.Input()
+O.University.Input()
